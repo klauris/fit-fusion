@@ -29,8 +29,8 @@ function Hero() {
             </p>
           </div>
 
-          <div className="py-4 flex gap-4 pb-6">
-            <button className="px-6 py-2 bg-purple-600 text-white font-bold">
+          <div className="py-4 flex  gap-4 pb-6">
+            <button className="px-8 py-3 bg-purple-600 text-white font-bold">
               <a href="" className="hover:font-bold">
                 Loose Fat
               </a>
