@@ -8,16 +8,15 @@ function Hero() {
   return (
     <div className="w-full h-screen flex flex-col">
       <div className="flex flex-col md:flex-row max-w-xl m-auto  ">
-        <div className="flex flex-col  md:items-start w-full px-8 py-8 z-10  gap-2  ">
+        <div className="flex flex-col  md:items-start w-full px-4 py-8 z-10  gap-2  ">
           <div>
             {" "}
-            <h1 className="text-4xl font-bold">
+            <h1 className="text-4xl font-bold ">
               A New Era of{" "}
               <span className="underline underline-offset-4 decoration-4 decoration-purple-600 	">
                 {" "}
                 Fitness
               </span>{" "}
-              <br></br>
               Standards.
             </h1>
             <p className="pt-2">
