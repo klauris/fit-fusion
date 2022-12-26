@@ -13,7 +13,7 @@ function Hero() {
             {" "}
             <h1 className="text-3xl font-bold">
               A New Era of{" "}
-              <span className="underline underline-offset-4 decoration-purple-600 	">
+              <span className="underline underline-offset-4 decoration-4 decoration-purple-600 	">
                 {" "}
                 Fitness
               </span>{" "}
