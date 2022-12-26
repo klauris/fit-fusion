@@ -1,7 +1,7 @@
 import React from "react";
 import hero from "../assets/fitfusion-hero.svg";
 import stroke from "../assets/stroke.svg";
-import mobilehero from "../assets/mobile-hero.svg";
+
 import yoga from "../assets/yoga-hero.svg";
 
 function Hero() {
@@ -12,7 +12,13 @@ function Hero() {
           <div>
             {" "}
             <h1 className="text-3xl font-bold">
-              A New Era of Fitness <br></br>Standards.
+              A New Era of{" "}
+              <span className="underline underline-offset-4 decoration-purple-600 	">
+                {" "}
+                Fitness
+              </span>{" "}
+              <br></br>
+              Standards.
             </h1>
             <p className="pt-2">
               Conventional diets don’t work. Discover the
