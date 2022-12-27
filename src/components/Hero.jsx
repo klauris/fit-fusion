@@ -7,16 +7,16 @@ import yoga from "../assets/yoga-hero.svg";
 function Hero() {
   return (
     <div className="w-full h-screen flex flex-col">
-      <div className="flex flex-col md:flex-row max-w-xl my-auto    ">
+      <div className="flex flex-col md:flex-row max-w-xl my-auto  pt-10  ">
         <div className="flex flex-col  md:items-start w-full px-2 py-8 z-10  gap-2 ">
           <div className="mt-10 pl-2">
             <h1 className="text-4xl font-bold ">
-              A New Era of{" "}
+              A New Era of <br />{" "}
               <span className="underline underline-offset-4 decoration-4 decoration-purple-600 ">
                 {" "}
                 Fitness
               </span>{" "}
-              Standards.
+              Standards
             </h1>
             <p className="pt-2">
               Conventional diets don’t work. Discover the <br></br>
