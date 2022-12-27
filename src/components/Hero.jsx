@@ -28,13 +28,13 @@ function Hero() {
             </p>
 
             <div className="mt-8">
-              <div className="mt-4 flex  gap-8 pb-6 ">
+              <div className="mt-4 flex  gap-6 pb-6 ">
                 <button className="px-8 py-3 bg-purple-600 text-white font-bold">
                   Loose Fat
                 </button>
 
                 <div className="flex items-center hover:text-gray-500 ">
-                  <button className=" font-bold">How it works</button>
+                  <button className=" font-bold ">How it works</button>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
