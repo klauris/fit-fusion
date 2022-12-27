@@ -18,7 +18,7 @@ function Hero() {
               </span>{" "}
               Standards
             </h1>
-            <p className="pt-2 md:text-2xl md:pt-4">
+            <p className="pt-2 md:text-xl md:pt-4 text-gray-700">
               Conventional diets don’t work. Discover the <br></br>
               <span className="font-bold ">
                 <span className="text-purple-600"> Fit</span>
