@@ -7,10 +7,10 @@ import yoga from "../assets/yoga-hero.svg";
 function Hero() {
   return (
     <div className="w-full h-screen flex flex-col">
-      <div className="flex flex-col md:flex-row max-w-xl my-auto  pt-10  ">
+      <div className="grid md:grid-cols-2 max-w-[1240px] m-auto ">
         <div className="flex flex-col  md:items-start w-full px-2 py-8 z-10  gap-2 ">
           <div className="mt-10 pl-2">
-            <h1 className="text-4xl font-bold ">
+            <h1 className="text-4xl font-bold md:text-6xl ">
               A New Era of <br />{" "}
               <span className="underline underline-offset-4 decoration-4 decoration-purple-600 ">
                 {" "}
@@ -18,7 +18,7 @@ function Hero() {
               </span>{" "}
               Standards
             </h1>
-            <p className="pt-2">
+            <p className="pt-2 md:text-2xl md:pt-4">
               Conventional diets don’t work. Discover the <br></br>
               <span className="font-bold ">
                 <span className="text-purple-600"> Fit</span>
@@ -52,11 +52,10 @@ function Hero() {
                 </div>
               </div>
             </div>
-
-            <div className=" p-6">
-              <img src={yoga} alt="" className="w-full " />
-            </div>
           </div>
+        </div>
+        <div className=" p-6 md:flex">
+          <img src={yoga} alt="" className="w-full md:h-2/3 " />
         </div>
       </div>
     </div>
