@@ -28,7 +28,7 @@ function Hero() {
             </p>
 
             <div className="mt-8">
-              <div className="mt-4 flex  gap-6 pb-6 ">
+              <div className="mt-4 flex  gap-4 pb-6 ">
                 <button className="px-8 py-3 bg-purple-600 text-white font-bold">
                   Loose Fat
                 </button>
