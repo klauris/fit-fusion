@@ -7,7 +7,7 @@ import yoga from "../assets/yoga-hero.svg";
 function Hero() {
   return (
     <div className="w-full h-screen flex flex-col">
-      <div className="grid md:grid-cols-2 max-w-[1240px] m-auto ">
+      <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
         <div className="flex flex-col  md:items-start w-full  py-8 z-10  gap-2 ">
           <div className="mt-10 ">
             <h1 className="text-4xl font-bold md:text-6xl ">
