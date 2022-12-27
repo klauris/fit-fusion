@@ -54,7 +54,7 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div className=" p-6 md:flex">
+        <div className=" p-6 md:flex items-center">
           <img src={yoga} alt="" className="w-full md:h-2/3 " />
         </div>
       </div>
