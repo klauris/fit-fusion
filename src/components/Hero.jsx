@@ -8,7 +8,7 @@ function Hero() {
   return (
     <div className="w-full h-screen flex flex-col">
       <div className="flex flex-col md:flex-row max-w-xl my-auto    ">
-        <div className="flex flex-col  md:items-start w-full px-4 py-8 z-10  gap-2 ">
+        <div className="flex flex-col  md:items-start w-full px-2 py-8 z-10  gap-2 ">
           <div className="mt-10 pl-2">
             <h1 className="text-4xl font-bold ">
               A New Era of{" "}
