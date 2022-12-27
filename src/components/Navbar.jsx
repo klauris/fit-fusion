@@ -12,7 +12,7 @@ function Navbar() {
       className="w-screen bg-white fixed  h-16 
      z-40 drop-shadow-md "
     >
-      <div className=" flex justify-between items-center max-w-[1040px] m-auto h-full md:px-4 px-1 ">
+      <div className=" flex justify-between items-center max-w-[1040px] m-auto h-full md:px-4 px-2 ">
         <div className="flex  ml-4 md:ml-1 ">
           <img src={logo} alt="brand-logo" className="h-5  " />
         </div>

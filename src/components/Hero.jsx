@@ -9,7 +9,7 @@ function Hero() {
     <div className="w-full h-screen flex flex-col">
       <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
         <div className="flex flex-col  md:items-start w-full  py-8 z-10  gap-2 ">
-          <div className="mt-10 ">
+          <div className="mt-10 md:pl-6 ">
             <h1 className="text-4xl font-bold md:text-6xl ">
               A New Era of <br />{" "}
               <span className="underline underline-offset-4 decoration-4 decoration-purple-600 ">
