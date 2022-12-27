@@ -13,7 +13,7 @@ function Navbar() {
      z-40 drop-shadow-md "
     >
       <div className="px-2 flex justify-between items-center w-full h-full">
-        <div className="flex  ml-6 sm:ml-4">
+        <div className="flex  ml-4 sm:ml-4">
           <img src={logo} alt="brand-logo" className="h-5  " />
         </div>
 

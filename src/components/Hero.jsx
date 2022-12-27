@@ -7,13 +7,12 @@ import yoga from "../assets/yoga-hero.svg";
 function Hero() {
   return (
     <div className="w-full h-screen flex flex-col">
-      <div className="flex flex-col md:flex-row max-w-xl m-auto  ">
-        <div className="flex flex-col  md:items-start w-full px-4 py-8 z-10  gap-2  ">
-          <div>
-            {" "}
+      <div className="flex flex-col md:flex-row max-w-xl my-auto    ">
+        <div className="flex flex-col  md:items-start w-full px-4 py-8 z-10  gap-2 ">
+          <div className="mt-10 pl-2">
             <h1 className="text-4xl font-bold ">
               A New Era of{" "}
-              <span className="underline underline-offset-4 decoration-4 decoration-purple-600 	">
+              <span className="underline underline-offset-4 decoration-4 decoration-purple-600 ">
                 {" "}
                 Fitness
               </span>{" "}
@@ -27,20 +26,36 @@ function Hero() {
               </span>{" "}
               methodology to fat loss.
             </p>
-          </div>
 
-          <div className="py-4 flex  gap-4 pb-6">
-            <button className="px-8 py-3 bg-purple-600 text-white font-bold">
-              <a href="" className="hover:font-bold">
-                Loose Fat
-              </a>
-            </button>
-            <button className="border-[1.5px] border-purple-700 px-4 py-2 font-bold text-purple-700 mr-4 ">
-              How it works
-            </button>
-          </div>
-          <div className=" p-6">
-            <img src={yoga} alt="" className="w-full " />
+            <div className="mt-8">
+              <div className="mt-4 flex  gap-8 pb-6 ">
+                <button className="px-8 py-3 bg-purple-600 text-white font-bold">
+                  Loose Fat
+                </button>
+
+                <div className="flex items-center hover:text-gray-500 ">
+                  <button className=" font-bold">How it works</button>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                    className="w-4 h-4"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div className=" p-6">
+              <img src={yoga} alt="" className="w-full " />
+            </div>
           </div>
         </div>
       </div>
