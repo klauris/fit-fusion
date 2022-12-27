@@ -19,7 +19,7 @@ function Hero() {
               Standards.
             </h1>
             <p className="pt-2">
-              Conventional diets don’t work. Discover the
+              Conventional diets don’t work. Discover the <br></br>
               <span className="font-bold ">
                 <span className="text-purple-600"> Fit</span>
                 Fusion
